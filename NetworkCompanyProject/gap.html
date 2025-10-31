@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gap Services</title>
+  <link href="shared.css" rel="stylesheet" type="text/css">
+  <link href="fgf.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="home">Home</a>
+      <a href="about.html" class="about">About</a>
+      <a href="services.html" class="services">Services</a>
+    </nav>
+
+    <form action="#" class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button type="submit"><i class='bx bx-search'></i></button>
+    </form>
+
+    <div class="basket-icon">
+      <i class="fa-solid fa-shopping-basket" id="basket-button" alt="Basket"></i>
+    </div>
+  </header>
+
+  <div class="basket-menu" id="basket-menu">
+    <div class="basket-header">
+      <h2>Your Basket</h2>
+      <button id="close-button">&times;</button>
+    </div>
+    <div class="basket-content">
+      <!-- Basket items will be dynamically added here -->
+    </div>
+    <div class="basket-actions">
+      <button class="checkout-button">Checkout</button>
+      <button class="clear-cart">Clear Cart</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="service-wrapper">
+      <!-- SIM-only Plans -->
+      <div class="service">
+        <h1>Gap Plans<span></span></h1>
+      </div>
+
+      <h2 class="section-title">SIM-only Plans</h2>
+      <div class="cards" id="sim-cards">
+        <div class="card">
+          <i class="fa-solid fa-sim-card" alt="SIM Card"></i>
+          <h2>Super saver</h2>
+          <p>Data: 1 GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£10 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-sim-card" alt="SIM Card"></i>
+          <h2>Saver</h2>
+          <p>Data: 2 GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£14 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-sim-card" alt="SIM Card"></i>
+          <h2>Average</h2>
+          <p>Data: 5 GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£19 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-sim-card" alt="SIM Card"></i>
+          <h2>Regular</h2>
+          <p>Data: 10 GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£25 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-sim-card" alt="SIM Card"></i>
+          <h2>Spender</h2>
+          <p>Data: unl GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£32 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Phone-inclusive Plans -->
+      <h2 class="section-title">Phone-inclusive Plans</h2>
+      <div class="cards" id="phone-cards">
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>All-in iPhone 14 Pro</h2>
+          <p>Data: unl GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£79 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>All-in iPhone 14</h2>
+          <p>Data: unl GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£55 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>All-in iPhone 13</h2>
+          <p>Data: unl GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£50 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>All-in Samsung S22</h2>
+          <p>Data: unl GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£72 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>All-in Samsung S21</h2>
+          <p>Data: unl GB</p>
+          <p>Calls/Text: unl/unl</p>
+          <div class="price">£50 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Just Phone Plans -->
+      <h2 class="section-title">Just Phone Plans</h2>
+      <div class="cards" id="just-phone-cards">
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>Just phone iPhone 14 Pro</h2>
+          <div class="price">£59 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>Just phone iPhone 14</h2>
+          <div class="price">£42 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>Just phone iPhone 13</h2>
+          <div class="price">£37 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+          </div>
+
+          <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>Just phone Samsung S22</h2>
+          <div class="price">£57 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+          </div>
+
+          <div class="card">
+          <i class="fa-solid fa-mobile" alt="Mobile Phone"></i>
+          <h2>Just phone Samsung S21</h2>
+          <div class="price">£30 / month</div>
+          <div class="buttons">
+            <button class="minus">-</button>
+            <span class="quantity">0</span>
+            <button class="plus">+</button>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+  <script src="storage-helper.js"></script>
+  <script src="fgf.js"></script>
+          </body>
+          </html>
