@@ -24,7 +24,9 @@ This project serves as the official online presence and informational hub for al
 | **JavaScript** | Interactivity and dynamic client-side functionality (In Progress). |
 
 
-![Responsive Demo of ALG Mobile Network](images/responsive-demo.gif.mp4)
+<video src="images/responsive-demo.gif.mp4" autoplay loop muted playsinline>
+    Your browser does not support the video tag.
+</video>
 
 ## 🚀 Getting Started (Local Development)
 
