@@ -41,7 +41,7 @@ You only need a modern web browser to view the site, and Git to clone the reposi
 
 1. **Clone the Repository:**
     ```bash
-    git clone [https://github.com/SoheibKaddouri/alg-mobile-network.git](https://github.com/SoheibKaddouri/alg-mobile-network.git)
+    git clone https://github.com/SoheibKaddouri/alg-mobile-network.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
