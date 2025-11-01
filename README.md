@@ -42,10 +42,12 @@ You only need a modern web browser to view the site, and Git to clone the reposi
 1. **Clone the Repository:**
     ```bash
     git clone [https://github.com/SoheibKaddouri/alg-mobile-network.git](https://github.com/SoheibKaddouri/alg-mobile-network.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
     cd alg-mobile-network
     ```
-
-2. **Open in Browser:**
+3. **Open in Browser:**
     * Open the `index.html` file directly in your web browser.
     * *(Tip: If using VS Code, use the "Go Live" extension for easier development)*
 
