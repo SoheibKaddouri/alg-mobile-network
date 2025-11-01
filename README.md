@@ -24,7 +24,7 @@ This project serves as the official online presence and informational hub for al
 | **JavaScript** | Interactivity and dynamic client-side functionality (In Progress). |
 
 
-![Responsive Demo of ALG Mobile Network](images/responsive-demo.gif)
+![Responsive Demo of ALG Mobile Network](images/responsive-demo.gif.mp4)
 
 ## 🚀 Getting Started (Local Development)
 
