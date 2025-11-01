@@ -1,6 +1,5 @@
 # 🌐 ALG Mobile Network Platform
 
-![Responsive Demo of ALG Mobile Network](images/responsive-demo.gif.webm)
 
 A responsive, multi-brand website for the **ALG Mobile Network**, featuring dedicated landing pages for its three distinct mobile brands: **Fone**, **GAP**, and **Flipper**.
 
@@ -23,6 +22,9 @@ This project serves as the official online presence and informational hub for al
 | **HTML5** | Core structure and content. |
 | **CSS3** | Styling, layout, and visual presentation. |
 | **JavaScript** | Interactivity and dynamic client-side functionality (In Progress). |
+
+
+![Responsive Demo of ALG Mobile Network](images/responsive-demo.gif.webm.mp4)
 
 ## 🚀 Getting Started (Local Development)
 
