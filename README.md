@@ -23,9 +23,7 @@ This project serves as the official online presence and informational hub for al
 | **CSS3** | Styling, layout, and visual presentation. |
 | **JavaScript** | Interactivity and dynamic client-side functionality (In Progress). |
 
-<video src="images/responsive-demo.gif.mp4" autoplay loop muted playsinline>
-    Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/573981ca-53de-4531-aa13-a7d1a9bce453
 
 ## 🚀 Getting Started (Local Development)
 
